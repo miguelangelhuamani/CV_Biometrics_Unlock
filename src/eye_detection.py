@@ -3,7 +3,7 @@ import numpy as np
 
 def detect_eyes(frame):
 
-    fs = cv2.FileStorage("calibration_params.xml", cv2.FILE_STORAGE_READ)
+    fs = cv2.FileStorage("src/calibration_params.xml", cv2.FILE_STORAGE_READ)
     dist = fs.getNode("dist").mat()
     mtx = fs.getNode("mtx").mat()
     fs.release()

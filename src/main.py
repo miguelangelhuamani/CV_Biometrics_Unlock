@@ -4,7 +4,8 @@ from eye_detection import detect_eyes
 from output_video import cargar_video, mostrar_video, mostrar_password, cerrar_video, mostrar_mensaje_final,mostrar_mensaje_inicial,mostrar_fps
 from decoder import procesar_binario
 
-cap = cargar_video("input/video.mp4")
+cap = cargar_video("./input/video.mp4")
+#cap = cv2.VideoCapture(0)
 fps = cap.get(cv2.CAP_PROP_FPS)
 frame_interval = 1 / fps 
 
