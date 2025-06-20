@@ -1,6 +1,6 @@
 # 👁️ Eye Pattern Detection System for Computer Access
 
-This project implements an iris detection and tracking system using **OpenCV**, designed to interpret eye blinks as a binary sequence. The system decodes this sequence into a numeric password that can unlock access to the computer, enabling a hands-free biometric interface based on ocular gestures.
+This project implements an iris detection and tracking system using **OpenCV**, designed to interpret eye blinks as a binary sequence. The system decodes this sequence into a numeric password that can unlock access to the computer, enabling a hands-free biometric interface based on ocular gestures (More technical details are provided in Informe Proyecto.pdf).
 
 ---
 
