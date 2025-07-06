@@ -27,8 +27,8 @@ This project implements an iris detection and tracking system using **OpenCV**, 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/miguelangelhuamani/CV_FinalProject.git
-   cd cv-final-project
+   git clone https://github.com/miguelangelhuamani/CV_Biometrics_Unlock.git
+   cd CV_Biometrics_Unlock
    ```
 
 2. Install the required packages:
